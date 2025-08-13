@@ -1,4 +1,4 @@
-# 🎮 Gamify 
+# 🎮 Gamify - Gaming website
 
 Welcome to **Gamify**, a sleek, and fully responsive website built using modern web technologies HTML, CSS, and JavaScript. It combines visual appeal with intuitive design to deliver a dynamic user experience.
 
