@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon link -->
+
+    <link rel="icon" href="images/game-controller.png" type="image/x-icon" />
+
+    <!-- primary meta tags -->
+
+    <title>Gamefy</title>
+    <meta
+      name="keywords"
+      content="gaming, online games, PC games, console games, game reviews, latest games, game news, video games, play games, game trailers"
+    />
+    <meta
+      name="description"
+      content="Discover the latest in gaming with reviews, news, trailers, and updates on PC, console, and mobile games. Join the ultimate gaming community today!"
+    />
+
+    <!-- AOS css  -->
+
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- fonts awesome -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- custom css links -->
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- loader -->
+
+    <div id="preloader"></div>
+
+    <!-- header -->
+
+    <header class="header" data-aos="fade-down" data-aos-duration="600" data-aos-delay="1050">
+      <nav class="container navbar">
+        <a class="logo" href="#"><i class="fa-solid fa-gamepad"></i> Gamefy</a>
+
+        <ul class="navlist">
+          <li>
+            <a
+              id="close-sidebar-button"
+              onclick="closeSlidebar()"
+              class="logo"
+              href="#"
+              ><i class="fa-solid fa-xmark"></i
+            ></a>
+          </li>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Games</a></li>
+          <li><a href="#">Top Gamers</a></li>
+          <li><a href="#">Gallery</a></li>
+          <li><a class="border-btn" href="#">Sign in</a></li>
+        </ul>
+        <div id="overlay" onclick="closeSlidebar()"></div>
+        <a class="border-btn" href="#">Sign in</a>
+        <a
+          id="open-sidebar-button"
+          onclick="openSlidebar()"
+          class="hamburger logo"
+          href="#"
+          ><i class="fa-solid fa-bars-staggered"></i
+        ></a>
+      </nav>
+    </header>
+
+    <!-- sections here -->
+
+    <main>
+      <!-- hero -->
+
+      <section>
+        <div class="hero container column">
+          <div class="content">
+            <h1 data-aos="fade-in" data-aos-duration="1500" data-aos-delay="300">Discover Cover Game From Us</h1>
+            <p data-aos="fade-right" data-aos-duration="300" data-aos-delay="650">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+              quaerat eligendi doloribus ratione ab minima dolor pariatur earum
+              harum itaque?
+            </p>
+            <div class="btn-container" data-aos="fade-right" data-aos-duration="300" data-aos-delay="950">
+              <a class="fill-btn" href="#">Get Started</a>
+              <a class="border-btn" href="#">Explore</a>
+            </div>
+          </div>
+
+          <div class="img-container" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100">
+            <img src="images/castle.png" alt="hero-image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- top games -->
+
+      <section>
+        <div class="section-gap container">
+          <h2 data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">Check Our Top Games</h2>
+
+          <div class="card-container ">
+            <div class="card" data-aos="fade-left" data-aos-duration="600" data-aos-delay="300">
+              <div class="card-image"></div>
+              <div>
+                <h3>Gensin Impacct-Version 3.3</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus rem eum culpa blanditiis maxime repudiandae
+                  facilis doloribus quia, quisquam commodi, sequi sit?
+                </p>
+                <a class="read-more" href="#"
+                  >Read More
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card" data-aos="fade-left" data-aos-duration="600" data-aos-delay="600">
+              <div class="card-image"></div>
+              <div>
+                <h3>BorderLands 4</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus rem eum culpa blanditiis maxime repudiandae
+                  facilis doloribus quia, quisquam commodi, sequi sit?
+                </p>
+                <a class="read-more" href="#"
+                  >Read More
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+            <div class="card" data-aos="fade-left" data-aos-duration="600" data-aos-delay="900">
+              <div class="card-image"></div>
+              <div>
+                <h3>Camping 2:Creed Valley</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatibus rem eum culpa blanditiis maxime repudiandae
+                  facilis doloribus quia, quisquam commodi, sequi sit?
+                </p>
+                <a class="read-more" href="#"
+                  >Read More
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="prev-nxt-box ">
+            <i id="prev" class=" fa-solid fa-arrow-left"></i>
+            <i id="next" class=" fa-solid fa-arrow-right"></i>
+          </div>
+        </div>
+      </section>
+
+      <!-- gallery -->
+
+      <section>
+        <div class=" gallery container section-gap">
+          <h2 data-aos="fade-in" data-aos-duration="600" data-aos-delay="100">Top Games</h2>
+
+          <div class="grid-gallery-container">
+            <div class="img-wrapper " data-aos="flip-left" data-aos-duration="600" data-aos-delay="300">
+              <img src="images/gallery1.jpg" alt="gallery image-1" />
+            </div>
+            <div class="img-wrapper " data-aos="flip-left" data-aos-duration="600" data-aos-delay="500">
+              <img src="images/gallery2.jpg" alt="gallery image-2" />
+            </div>
+            <div class="img-wrapper " data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
+              <img src="images/gallery3.jpg" alt="gallery image-3" />
+            </div>
+            <div class="img-wrapper " data-aos="flip-left" data-aos-duration="600" data-aos-delay="900">
+              <img src="images/gallery4.jpg" alt="gallery image-4" />
+            </div>
+            <div class="img-wrapper " data-aos="flip-left" data-aos-duration="600" data-aos-delay="1100">
+              <img src="images/gallery5.jpg" alt="gallery image-5" />
+            </div>
+            <div class="img-wrapper " data-aos="flip-left" data-aos-duration="600" data-aos-delay="1300">
+              <img src="images/gallery6..jpg" alt="gallery image-6" />
+            </div>
+            <div class="img-wrapper " data-aos="flip-left" data-aos-duration="600" data-aos-delay="1500">
+              <img src="images/gallery7..jpg" alt="gallery image-7" />
+            </div>
+            <div class="img-wrapper " data-aos="flip-left" data-aos-duration="600" data-aos-delay="1700">
+              <img src="images/gallery8..jpg" alt="gallery image-8" />
+            </div>
+          </div>
+
+          <a class="fill-btn" href="#">View More</a>
+        </div>
+      </section>
+
+      <!-- gateway to gaming -->
+
+      <section>
+        <div class="gaming-hub container section-gap">
+          <div class="game-image" data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
+            <img src="images/product.png" alt="game-image" />
+          </div>
+
+          <div class="game-content">
+            <h2 data-aos="flip-down" data-aos-duration="600" data-aos-delay="300">Your Gateway to Gaming</h2>
+            <p data-aos="flip-down" data-aos-duration="600" data-aos-delay="500">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem
+              et, unde laborum doloribus quas blanditiis debitis omnis, dolores
+              minima alias facilis odit eum neque provident facere saepe
+              reiciendis, illum odio quod error laboriosam animi quia.
+              Perspiciatis fugiat distinctio adipisci facere ab ullam aut modi
+              aperiam iusto vel, sequi deserunt ratione.
+            </p>
+            <div class="btn-container" data-aos="flip-down" data-aos-duration="600" data-aos-delay="700">
+              <a class="fill-btn" href="#">View More</a>
+              <a href="" class="explore"
+                ><i class="fa-solid fa-play"></i>Explore</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- youtube -->
+
+       <section>
+        <div class="youtube-bg">
+          <div class="youtube container section-gap">
+            <div id="youtube-icon" data-aos="flip-down" data-aos-duration="600" data-aos-delay="400">
+              <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+            <h2 data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">where digital world meets real innovation</h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- newsletter -->
+
+      <section>
+        <div class="newsletter container section-gap" data-aos="fade-out" data-aos-duration="600" data-aos-delay="300">
+          <form>
+            <h2>join our newsletter</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa non
+              debitis voluptatem fuga quisquam natus dolore obcaecati itaque sit
+              velit eius ratione veritatis nesciunt, rerum modi cumque sunt
+              consequuntur est.
+            </p>
+            <div class="input-container">
+              <input
+                id="newsletter-txt"
+                type="text"
+                name="email"
+                placeholder="For Update Update Send Email"
+                autocomplete="off"
+              />
+              <a id="Subscribe" class="fill-btn" href="#">Subscribe</a>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- footer -->
+
+    <footer>
+     <div class="container section-gap">
+        <div class="footer">
+          <div class="footer-nav-links" data-aos="fade-right" data-aos-duration="600" data-aos-delay="100">
+            <p>Links</p>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Top Gamers</a></li>
+              <li><a href="#">Gallery</a></li>
+            </ul>
+          </div>
+
+          <div class="links" data-aos="fade-right" data-aos-duration="600" data-aos-delay="300">
+            <p>Services</p>
+            <ul>
+              <li><a href="#">Special Offer</a></li>
+              <li><a href="#">Most Wanted</a></li>
+              <li><a href="#">Ner Releases</a></li>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">FAQ's</a></li>
+            </ul>
+          </div>
+
+          <div class="contact-us" data-aos="fade-right" data-aos-duration="600" data-aos-delay="500">
+            <p>Contact info.</p>
+            <address>
+              <ul>
+                <li>91+ 98879-88674</li>
+                <li>91+ 99835-23745</li>
+                <li>www.gamefy.com</li>
+                <li>gamefy@gmail.com</li>
+              </ul>
+            </address>
+          </div>
+
+          <div id="socials" data-aos="flip-left" data-aos-duration="600" data-aos-delay="700">
+            <a class="logo" href="#"
+              ><i class="fa-solid fa-gamepad"></i> Gamefy</a
+            >
+            <p>Lorem ipsum dolor sit amet ror similique vero?</p>
+            <ul>
+              <li>
+                <a href="#"><i class="fa-brands fa-steam"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div> 
+
+      <!-- copywrite  -->
+       <div class="copywrite container">
+        <p>&copy; 2025 Gamefy. All rights reserved.</p>
+      </div> 
+    </footer>
+
+    <!-- AOS js  -->
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- custom js links -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
